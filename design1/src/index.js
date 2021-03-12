@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import InputField from './InputField';
 
 const App = () => {
   return(
   <div className="container">
-      <text> this is a test </text>
+      <InputField/>
 
   </div>
   );
