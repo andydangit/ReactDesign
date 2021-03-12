@@ -4,15 +4,15 @@ const InputField = (props) => {
   return (
     <div className="inputName">
       <div className="ui input">
-        <input type="text" placeholder="Name" class="" />
+        <input type="text" placeholder="Name"  />
       </div>
       <div className="inputEmail">
         <div className="ui input">
-          <input type="email" placeholder="Email" class="" />
+          <input type="email" placeholder="Email" />
         </div>
       <div className="inputPassword">
         <div className="ui input">
-          <input type="password" placeholder="Password"class="" />
+          <input type="password" placeholder="Password" />
         </div>
         </div> 
       </div>
