@@ -5,7 +5,7 @@ import InputField from './InputField';
 const App = () => {
   return(
   <div className="container">
-      <InputField/>
+      <InputField />
 
   </div>
   );
