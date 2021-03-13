@@ -1,4 +1,5 @@
 import React from "react";
+import Button from './button';
 
 const InputField = (props) => {
   return (
@@ -15,6 +16,7 @@ const InputField = (props) => {
           <input type="password" placeholder="Password" />
         </div>
         </div> 
+        <Button /> 
       </div>
     </div>
   );
