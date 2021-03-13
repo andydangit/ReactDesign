@@ -1,5 +1,6 @@
 import React from 'react';
 import Box from '@material-ui/core/Box';
+import InputField from './InputField';
 
 const defaultProps = {
     bgcolor: 'background.paper',
@@ -8,14 +9,18 @@ const defaultProps = {
     borderColor: 'text.primary',
   };
 
-const BackgroundBorder = (props) => {
+const Border = (props) => {
     return ( 
+
+        
         <div className = 'Content'>  {props.children}
         <Box display="flex" justifyContent="center">
-        <Box border={1} {...defaultProps} />
+        <Box border={1}  {...defaultProps} /> <InputField /> 
+        
         </Box> 
+        
         </div>
     )
 }
 
-export default BackgroundBorder;
+export default Border;
