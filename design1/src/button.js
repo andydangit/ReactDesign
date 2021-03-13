@@ -1,6 +1,6 @@
-import react from 'react';
+import React from 'react';
 
-const ButtonColor = () => {
+const Button = () => {
     return (
         <div> 
             <button style = {{ backgroundColor: '#FF875B', color: 'white'}}> Create Account  </button>
@@ -8,4 +8,4 @@ const ButtonColor = () => {
     )
 }
 
-export default ButtonColor;
+export default Button;
