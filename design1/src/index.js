@@ -1,19 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import InputField from "./InputField";
-import ButtonColor from "./button";
-import BackgroundBorder from "./border";
+import Border from "./border";
 import HeaderStyle from "./header";
 import "./App.css";
 
 const App = () => {
   return (
     <div className="container">
-      <BackgroundBorder>
+      <Border>
         <HeaderStyle />
-        <InputField />
-        <ButtonColor />
-      </BackgroundBorder>
+      </Border>
     </div>
   );
 };
