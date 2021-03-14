@@ -7,15 +7,15 @@ const InputField = (props) => {
     <text style = {{fontSize: "15px", fontWeight: "bold", marginLeft: "290px"}}>X</text> 
     <div className="inputName"> 
       <div className="ui input" style = {{ width: "350px", marginTop: "25px"}}>
-        <input type="text" placeholder="Name"  />
+        <input type="text" placeholder="Name" style = {{ backgroundColor:"#eaeaea", color: " black"}}  />
       </div>
       <div className="inputEmail">
         <div className="ui input" style = {{ width: "350px"}}>
-          <input type="email" placeholder="Email" />
+          <input type="email" placeholder="Email" style = {{ backgroundColor:"#eaeaea", color: " black"}} />
         </div>
       <div className="inputPassword">
         <div className="ui input" style = {{ width: "350px"}}>
-          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Password" style = {{ backgroundColor:"#eaeaea", color: " black"}}/>
         </div>
         </div> 
         <div style = {{ marginLeft: "130px", marginTop: "25px"}}>
