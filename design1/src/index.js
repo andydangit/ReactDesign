@@ -9,10 +9,8 @@ import "./App.css";
 const App = () => {
   return (
     <div className="container">
+      <Border />
 
-      <Border>
-
-      </Border>
     </div>
   );
 };
