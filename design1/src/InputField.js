@@ -4,7 +4,7 @@ import Button from './button';
 const InputField = (props) => {
   return (
     <div className = "container"> <text style = {{fontSize: "20px", fontWeight: "bold"}}>Sign up</text> 
-    <text style = {{fontSize: "15px", fontWeight: "bold", marginLeft: "290px"}}>X</text> 
+    <text style = {{fontSize: "15px", fontWeight: "bold", marginLeft: "280px"}}>X</text> 
     <div className="inputName"> 
       <div className="ui input" style = {{ width: "350px", marginTop: "25px"}}>
         <input type="text" placeholder="Name" style = {{ backgroundColor:"#eaeaea", color: " black"}}  />
@@ -21,7 +21,7 @@ const InputField = (props) => {
         <div style = {{ marginLeft: "130px", marginTop: "25px"}}>
         <Button /> 
         </div> 
-        <div style ={{ fontSize: "11px", marginLeft: " 118px", marginTop: "20px", color: "gray"}}> Already have an account</div>
+        <div style ={{ fontSize: "10px", marginLeft: " 135px", marginTop: "15px", color: "lightGray"}}> Already have an account</div>
       </div>
     </div>
     </div>
