@@ -5,11 +5,13 @@ import Border from "./border";
 import HeaderStyle from "./header";
 import "./App.css";
 
+
 const App = () => {
   return (
     <div className="container">
+
       <Border>
-        <HeaderStyle />
+
       </Border>
     </div>
   );
