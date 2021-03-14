@@ -11,6 +11,7 @@ const divStyle = {
     alignItems: "center", 
     width: "400px",
     height: "300px",
+    borderRadius: "5px",
 
   };
 
