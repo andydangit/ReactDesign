@@ -16,7 +16,9 @@ const InputField = (props) => {
           <input type="password" placeholder="Password" />
         </div>
         </div> 
+        <div style = {{ marginLeft: "40px", marginTop: "10px"}}>
         <Button /> 
+        </div> 
       </div>
     </div>
   );
