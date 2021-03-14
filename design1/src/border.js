@@ -2,22 +2,24 @@ import React from 'react';
 import Box from '@material-ui/core/Box';
 import InputField from './InputField';
 
-const defaultProps = {
-    bgcolor: 'background.paper',
-    m: 1,
-    style: { width: '350px', height: '300px' },
-    borderColor: 'text.primary',
+const divStyle = {
+    MarginBottom: "300px",
+    backgroundColor: "Yellow",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center", 
+    width: "400px",
+    height: "200px",
+
+
   };
 
 const Border = (props) => {
     return ( 
 
         
-        <div className = 'Content'>  {props.children}
-        <Box display="flex" justifyContent="center">
-        <Box border={1}  {...defaultProps} /> <InputField /> 
-        
-        </Box> 
+        <div className="container">
+            <div style = {divStyle}> <InputField /> </div> 
         
         </div>
     )
