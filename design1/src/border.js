@@ -3,14 +3,14 @@ import Box from '@material-ui/core/Box';
 import InputField from './InputField';
 
 const divStyle = {
-    MarginBottom: "300px",
-    backgroundColor: "Yellow",
+    marginLeft:"300px",
+    marginTop: "100px",
+    backgroundColor: "#ffffff",
     display: "flex",
     justifyContent: "center",
     alignItems: "center", 
     width: "400px",
-    height: "200px",
-
+    height: "300px",
 
   };
 
