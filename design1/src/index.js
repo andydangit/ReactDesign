@@ -1,12 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import InputField from "./InputField";
+import Border from "./border";
+import HeaderStyle from "./header";
+import "./App.css";
+
 
 const App = () => {
-  return(
-  <div className="container">
-      <text> this is a test </text>
+  return (
+    <div className="container">
+      <Border />
 
-  </div>
+    </div>
   );
 };
 
